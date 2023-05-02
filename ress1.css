@@ -130,14 +130,14 @@ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 .cv{
     font-size: 20px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     margin: 50px 0 50px 140px;
     background-color: grey;
     color: white;
     border: none;
     outline: none;
     border-radius: 10px;   
-    margin-left: 350px;
+    margin-left: 500px;
 }
 @media print{
     body *{

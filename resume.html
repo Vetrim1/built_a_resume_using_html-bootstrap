@@ -16,11 +16,12 @@
     />
 
     <link rel="stylesheet" href="C:\Program Files (x86)\bootstrap-5.3.0-alpha3-dist\css\bootstrap.min.css"/>
-    <script type="text/JavaScript"  src="C:\Program Files (x86)\bootstrap-5.3.0-alpha3-dist\js\bootstrap.min.js"></script>
+    <script type="JavaScript"  src="C:\Program Files (x86)\bootstrap-5.3.0-alpha3-dist\js\bootstrap.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
     
 <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
   </head>
@@ -75,7 +76,7 @@
                       <button type="button" class="rounded-pill mt-2">
                         <i class="bi bi-github"></i>
                       </button>
-                      <span id="a1"><a id="a1" style="color: white;" href="https://github.com/Vetrim1">https://github.com/Vetrim1</a></span>
+                      <span id="a1"><a id="a1" style="color: white;text-decoration: none;" href="https://github.com/Vetrim1">https://github.com/Vetrim1</a></span>
                     </div>
                   </div>
                   <br />
@@ -279,11 +280,15 @@
 
                 <h6 class="text-justify">
                   An incentive-driven full stack web developer dedicated to
+                  building a Web App, novel website design and innovative user interface.
+                  Technical proficiency with the
+                  ability to solve problems with calm, focused behaviour.
+                    <!-- An incentive-driven full stack web developer dedicated to
                   building a novel website design and innovative user interface
                   known for architecting customer facing products that deliver
                   unique experiences complying with internal coding standards
                   and technical requirements. Technical proficiency with the
-                  ability to solve problems with calm, focused behaviour.
+                  ability to solve problems with calm, focused behaviour. -->
                 </h6>
               </div>
 
@@ -324,17 +329,22 @@
                 </div>
                 <br />
                 <ul>
-                  <li><h6><b>CRUD Operations using MERN Stack</b></h6>
+                  <li><h6><b>CRUD Operations using MERN Stack</b>   <a data-toggle="tooltip" title="view source" data-placement="right" style="color:skyblue;text-decoration: none;"  href="https://github.com/Vetrim1/CRUD_Operations_using_MERN_Stack"><i class="bi bi-eye-fill"></i></a></h6>
                     <h6>
                       Designed and implemented Rest APIs based on CRUD Operations to perform POST,GET,PUT,DELETE actions.
                     </h6>
                     </li>
-                <li><h6><b>Generate CV</b></h6>
+                <li><h6><b>Generate CV</b>   <a data-toggle="tooltip" title="view source" data-placement="right" style="color:skyblue;text-decoration: none;"  href="https://vetrim1.github.io/built_a_resume_using_html-bootstrap/resume"><i class="bi bi-eye-fill"></i></a></h6>
                 <h6>
                   To generate a resume using
                   html,css,bootstrap.
                 </h6>
                 </li>
+                 <!-- <li><h6><b>Ongoing Project -Zomato WebApp clone-Full Stack</b></h6>
+                    <h6>
+                      Developing an end-to-end Full stack based app providing real-time delivery tracking, management and analytics.
+                    </h6>
+                  </li> -->
                 <li>
                 <h6>
                   <b
@@ -342,14 +352,16 @@
                     Forcasting- EEE Project</b
                   >
                 </h6>
-                </li>
-                </ul>
-                <h6 class="text-justify">
+                 <h6 class="text-justify">
                   To Predetermine the load demand, a mobile app is developed in
                   order to satisfy the future load demand and over an area. My
                   contribution is Organize the team, make a presentation,
                   explore to collect details and implement into the project.
                 </h6>
+                </li>
+                
+                </ul>
+               
                 <br />
               </div>
               <div class="exp">
@@ -363,7 +375,7 @@
                 </div>
                 <br />
 
-                <h6><b>Siemens Gamesa Contract- Junior Engineer</b></h6>
+                <h6><b>Siemens Gamesa Renewable Energy Contract- J.E.</b></h6>
                 <h6 class="text-justify">
                   Got an oppertunity to serve as a Junior Engineer in the
                   reputed sector. Worked with the team of senior engineers in
@@ -382,10 +394,10 @@
                 </div>
                 <br/>
                 <ul><li>
-                <h6>
+                <h6 class="text-justify">
                   Organize one day Workshop on<b
                     >"IOT Application in Electrical Engineering" & "MATLAB Simulations""</b
-                  >at UCE-Trichy
+                  >at UCE-Trichy.
                 </h6></li>
                 <!-- <li>
                 <h6>
@@ -393,16 +405,16 @@
                   UCE-Trichy
                 </h6></li> -->
                 <li>
-                <h6>
+                <h6 class="text-justify">
                   Organize two day Symposium on<b
                     >"Avesha-2k20, YPiReSia-20, Avesha-2k21"</b
-                  >at UCE-Trichy
+                  >at UCE-Trichy.
                 </h6></li>
                 <li>
-                <h6>
+                <h6 class="text-justify">
                   Attend one day Workshop on<b
                     >"Recent Development in Electrical Power System" & "Operation and Control of Wind-Solar Hybrid System"</b
-                  >at NIT-Trichy
+                  >at NIT-Trichy.
                 </h6>
                 </li>
                 <!-- <li>
@@ -421,12 +433,15 @@
       </page>
     </page>
     <button class="cv" onclick="btnclick()">Print CV</button>
-   <a class="btn btn-danger" role="button" href="path_to_file"
+    
+
+   <!-- <a class="btn btn-danger cv" role="button" href="path_to_file"
    download="proposed_file_name">
   Download
-</a>
+</a> -->
     <script >
-        btnclick=()=> window.print()
+        btnclick=()=> window.print();
+
         
         
 
